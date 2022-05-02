@@ -1,0 +1,271 @@
+/*Fonte logo*/
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&family=Syne+Mono&display=swap');
+
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial;
+}
+
+body{
+    background: rgb(241, 241, 241);
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+/*scroll*/
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: #000;
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgb(241, 241, 241)
+}
+
+
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+/* navbar inicio*/
+
+#navbar{
+    position: fixed;
+    width: 100%;
+    /*background: #00804b;*/
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    z-index: 999;
+    transition: all 0.3s ease;
+}
+
+#navbar .max-width {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*logo*/
+#navbar #logo{
+    font-size: 30px;
+    font-family: 'Syne Mono', monospace;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+#navbar .menu li{
+    display: inline-block;
+    list-style: none;
+}
+
+#navbar .menu li a {
+    padding: 10px;
+    font-weight: 600;
+}
+
+#navbar.sticky {
+    background-color: rgb(241, 241, 241);
+}
+
+.sticky li a {
+    color: #000;
+}
+
+.sticky #logo {
+    color: #000;
+}
+
+/*Home*/
+.home {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #000;
+    height: 700px;
+}
+
+.textBox{
+    padding:50px;
+    width:40%;
+    margin-left: 80px;
+    margin-top: 80px;
+    height: 400px;
+}
+
+.home .textBox h2 {
+    color: #fff;
+    font-size:30px;
+    font-weight:600;
+    font-family: 'Shippori Antique B1', sans-serif;    
+    text-transform: uppercase;
+    text-align: left;
+}
+
+#tituloPrincipal {
+    color: #fff;
+    font-size:30px;
+    font-weight:600;
+    font-family: 'Shippori Antique B1', sans-serif;    
+    text-transform: uppercase;
+    text-align: left;
+    position: relative;
+
+}
+
+.home .textBox p{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 30px;
+    
+} 
+
+.home .textBox a{
+    display: inline-block;
+    margin-top: 50px;
+    padding: 15px;
+    background: #cecece;
+    color: #000;
+    border-radius: 5px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 30px;    
+} 
+
+.home .textBox a:hover{
+    background: #ffffff;
+    color: #525050;
+}
+
+.imgBox{
+    margin-right: 150px;
+    height: 550px;
+}
+
+/*Sobre nós Css*/
+
+h2{
+    font-size: 30px;
+    text-align: center;
+    margin: 30px;
+}
+
+.sobre{
+    display: flex;
+    align-items: center;
+    padding: 0 auto;
+    margin: 0 auto;
+    max-width: 950px;
+}
+
+.sobre-img {
+    margin: 30px;
+}
+
+.salao{
+    -webkit-box-shadow: -4px 0px 11px 1px rgba(0,0,0,0.84); 
+    box-shadow: -4px 0px 11px 1px rgba(0,0,0,0.84);
+}
+
+.sobre-text {
+    font-size: 20px;
+    text-align: justify;
+    margin: 30px;
+}
+
+/* Fotos - css */
+
+#container-fotos{
+    background-color: #000;
+}
+
+.titulo2{
+    padding-top: 40px;
+    text-align: center;
+    font: 30px;
+    margin-bottom: 0px;
+    color: #fff;
+}
+h4{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 1px;
+    color: #fff;
+}
+
+.fotos-grid{
+    max-width: 100%;
+    display: block;
+}
+
+.fotos{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 950px;
+    padding: 10px;
+}
+
+.fotos > div {
+    flex: 1 1 250px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+/*Contatos*/
+#contato-menu{
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+#contato-menu a{
+    color: #000;
+    font-family: 'Syne Mono', monospace;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.contato-logo{
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+}
+
+.assinatura {
+    font-weight: 600;
+    font-size: 13px;
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#contatos-h4{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 1px;
+    color: rgb(0, 0, 0);
+}
+
+hr{
+    width: 200px;
+    height: 1px;
+    background: #000;
+}
